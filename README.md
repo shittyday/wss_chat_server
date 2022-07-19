@@ -14,4 +14,4 @@
 - [ ] Online status
 - [ ] Wrinting, sending, etc statuses
 - [ ] Change path of secret sertificates
-
+- [ ] Change logic
