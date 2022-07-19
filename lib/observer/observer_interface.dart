@@ -1,4 +1,4 @@
-import 'package:chat_server/observer/subject.dart';
+import 'package:wss_chat_server/observer/subject.dart';
 
 abstract class IObserver {
   bool get online;

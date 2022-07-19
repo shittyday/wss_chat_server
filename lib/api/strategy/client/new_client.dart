@@ -1,10 +1,10 @@
 import 'dart:developer' as di;
 import 'dart:math';
 
-import 'package:chat_server/models/user/user.dart';
-import 'package:chat_server/observer/observer.dart';
-import 'package:chat_server/observer/subject.dart';
-import 'package:chat_server/api/strategy/strategy.dart';
+import 'package:wss_chat_server/models/user/user.dart';
+import 'package:wss_chat_server/observer/observer.dart';
+import 'package:wss_chat_server/observer/subject.dart';
+import 'package:wss_chat_server/api/strategy/strategy.dart';
 import 'dart:io';
 
 class NewClient<T extends HttpRequest>

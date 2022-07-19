@@ -1,7 +1,6 @@
-import 'package:chat_server/models/chat/chat.dart';
-import 'package:chat_server/models/messages/message.dart';
+import 'package:wss_chat_server/models/chat/chat.dart';
+import 'package:wss_chat_server/models/messages/message.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-
 
 part 'user.freezed.dart';
 part 'user.g.dart';

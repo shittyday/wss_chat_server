@@ -1,13 +1,13 @@
-import 'package:chat_server/observer/subject.dart';
-import 'package:chat_server/api/strategy/room/exist_room.dart';
-import 'package:chat_server/api/strategy/room/new_room.dart';
-import 'package:chat_server/api/strategy/friends/new_friend.dart';
-import 'package:chat_server/api/strategy/friends/exist_friend.dart';
-import 'package:chat_server/api/strategy/client/new_client.dart';
-import 'package:chat_server/api/strategy/login/auth_login.dart';
-import 'package:chat_server/api/strategy/login/exist_login.dart';
-import 'package:chat_server/api/strategy/chat/exist_chat.dart';
-import 'package:chat_server/api/strategy/chat/new_chat.dart';
+import 'package:wss_chat_server/observer/subject.dart';
+import 'package:wss_chat_server/api/strategy/room/exist_room.dart';
+import 'package:wss_chat_server/api/strategy/room/new_room.dart';
+import 'package:wss_chat_server/api/strategy/friends/new_friend.dart';
+import 'package:wss_chat_server/api/strategy/friends/exist_friend.dart';
+import 'package:wss_chat_server/api/strategy/client/new_client.dart';
+import 'package:wss_chat_server/api/strategy/login/auth_login.dart';
+import 'package:wss_chat_server/api/strategy/login/exist_login.dart';
+import 'package:wss_chat_server/api/strategy/chat/exist_chat.dart';
+import 'package:wss_chat_server/api/strategy/chat/new_chat.dart';
 
 abstract class Strategy<T> {
   /// Существующая комната

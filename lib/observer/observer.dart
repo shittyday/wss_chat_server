@@ -4,9 +4,9 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:isolate';
 
-import 'package:chat_server/models/user/user.dart';
-import 'package:chat_server/observer/observer_interface.dart';
-import 'package:chat_server/observer/subject.dart';
+import 'package:wss_chat_server/models/user/user.dart';
+import 'package:wss_chat_server/observer/observer_interface.dart';
+import 'package:wss_chat_server/observer/subject.dart';
 import 'package:intl/intl.dart';
 import 'common_types.dart';
 

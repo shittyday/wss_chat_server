@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:chat_server/observer/common_types.dart';
-import 'package:chat_server/observer/observer_interface.dart';
-import 'package:chat_server/observer/subject_state.dart';
-import 'package:chat_server/observer/subjet_interface.dart';
+import 'package:wss_chat_server/observer/common_types.dart';
+import 'package:wss_chat_server/observer/observer_interface.dart';
+import 'package:wss_chat_server/observer/subject_state.dart';
+import 'package:wss_chat_server/observer/subjet_interface.dart';
 
 class Subject implements ISubject {
   final _observers = <IObserver>[];

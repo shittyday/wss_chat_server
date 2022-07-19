@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:chat_server/api/strategy/strategy.dart';
-import 'package:chat_server/common/common_types.dart';
-import 'package:chat_server/observer/subject.dart';
-import 'package:chat_server/api/strategy/client/new_client.dart';
-import 'package:chat_server/api/strategy/server_context.dart';
+import 'package:wss_chat_server/api/strategy/strategy.dart';
+import 'package:wss_chat_server/common/common_types.dart';
+import 'package:wss_chat_server/observer/subject.dart';
+import 'package:wss_chat_server/api/strategy/client/new_client.dart';
+import 'package:wss_chat_server/api/strategy/server_context.dart';
 
 class Server {
   const Server._({required this.address, required this.context});
