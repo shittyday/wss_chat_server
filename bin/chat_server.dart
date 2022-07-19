@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:chat_server/server/server.dart';
+import 'package:wss_chat_server/server/server.dart';
 
 void main() async {
   var chain = Platform.script.resolve('certificates/cert.pem').toFilePath();
