@@ -7,8 +7,7 @@ import 'package:wss_chat_server/observer/subject.dart';
 import 'package:wss_chat_server/api/strategy/strategy.dart';
 import 'dart:io';
 
-class NewClient<T extends HttpRequest>
-    implements Strategy<T>, Comparable<Subject> {
+class NewClient<T extends HttpRequest> implements Strategy<T> {
   NewClient({required Subject subject}) : _subject = subject;
   final Subject _subject;
 
@@ -26,9 +25,4 @@ class NewClient<T extends HttpRequest>
 
   @override
   Subject get subject => _subject;
-
-  @override
-  int compareTo(other) {
-    return subject.state.id.compareTo(other.state.id);
-  }
 }
